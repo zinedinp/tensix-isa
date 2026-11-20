@@ -8,6 +8,7 @@ license.workspace = true
 repository.workspace = true
 keywords.workspace = true
 categories.workspace = true
+links = "tensix_units"
 
 [dependencies]
 tensix-insn.workspace = true

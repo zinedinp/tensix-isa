@@ -379,7 +379,7 @@ dependencies = [
 
 [[package]]
 name = "tensix-fw-abi"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "tensix-insn",
  "tensix-noc",
@@ -389,11 +389,11 @@ dependencies = [
 
 [[package]]
 name = "tensix-insn"
-version = "0.1.0"
+version = "0.1.1"
 
 [[package]]
 name = "tensix-isa"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "tensix-fw-abi",
  "tensix-insn",
@@ -406,7 +406,7 @@ dependencies = [
 
 [[package]]
 name = "tensix-layout"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "proptest",
  "tensix-tile",
@@ -414,26 +414,26 @@ dependencies = [
 
 [[package]]
 name = "tensix-noc"
-version = "0.1.0"
+version = "0.1.1"
 
 [[package]]
 name = "tensix-numerics"
-version = "0.1.0"
+version = "0.1.1"
 
 [[package]]
 name = "tensix-regs"
-version = "0.1.0"
+version = "0.1.1"
 
 [[package]]
 name = "tensix-tile"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "miraculix",
 ]
 
 [[package]]
 name = "tensix-units"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "tensix-insn",
  "tensix-numerics",
@@ -517,4 +517,4 @@ dependencies = [
 
 [[package]]
 name = "xtask"
-version = "0.1.0"
+version = "0.1.1"

@@ -3,7 +3,7 @@ resolver = "3"
 members = ["crates/*", "xtask"]
 
 [workspace.package]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 rust-version = "1.100.0"
 license = "Apache-2.0"
@@ -12,10 +12,10 @@ keywords = ["tenstorrent", "blackhole", "tensix", "isa", "no-std"]
 categories = ["hardware-support", "no-std", "embedded"]
 
 [workspace.dependencies]
-tensix-insn = { version = "0.1.0", path = "crates/tensix-insn" }
-tensix-regs = { version = "0.1.0", path = "crates/tensix-regs" }
-tensix-noc = { version = "0.1.0", path = "crates/tensix-noc" }
-tensix-numerics = { version = "0.1.0", path = "crates/tensix-numerics" }
-tensix-tile = { version = "0.1.0", path = "crates/tensix-tile" }
-tensix-units = { version = "0.1.0", path = "crates/tensix-units" }
-tensix-fw-abi = { version = "0.1.0", path = "crates/tensix-fw-abi" }
+tensix-insn = { version = "0.1.1", path = "crates/tensix-insn" }
+tensix-regs = { version = "0.1.1", path = "crates/tensix-regs" }
+tensix-noc = { version = "0.1.1", path = "crates/tensix-noc" }
+tensix-numerics = { version = "0.1.1", path = "crates/tensix-numerics" }
+tensix-tile = { version = "0.1.1", path = "crates/tensix-tile" }
+tensix-units = { version = "0.1.1", path = "crates/tensix-units" }
+tensix-fw-abi = { version = "0.1.1", path = "crates/tensix-fw-abi" }

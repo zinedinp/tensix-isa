@@ -107,7 +107,7 @@ struct Field {
 /// base, an unexpected wide mask, or zero fields parsed are all hard errors, and
 /// `gen-cfg --check` runs in CI and pre-commit so a pin bump cannot drift quietly.
 ///
-/// bindgen *is* the right tool for `tensix-kmd`'s `ioctl.h`, which is real C with
+/// bindgen *is* the right tool for tt-kmd's `ioctl.h`, which is real C with
 /// structs rather than a wall of macros.
 /// A field under construction: its section, then `ADDR32`, `SHAMT` and `MASK` as
 /// each is encountered. The header emits them on consecutive lines, but nothing
