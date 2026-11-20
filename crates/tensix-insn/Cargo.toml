@@ -1,0 +1,12 @@
+[package]
+name = "tensix-insn"
+description = "Tenstorrent Blackhole Tensix instruction encoders (generated from the ISA specification), address counters and the frontend MOP expander. no_std, no dependencies."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]

@@ -1,0 +1,20 @@
+[package]
+name = "tensix-isa"
+description = "Tenstorrent Blackhole hardware description: instruction encoders, register and memory maps, NoC coordinate spaces, tile formats, numerics models and the host/firmware protocol. no_std, re-exports the tensix-isa layer crates."
+readme = "../../README.md"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+tensix-insn.workspace = true
+tensix-regs.workspace = true
+tensix-noc.workspace = true
+tensix-numerics.workspace = true
+tensix-tile.workspace = true
+tensix-units.workspace = true
+tensix-fw-abi.workspace = true

@@ -1,0 +1,16 @@
+[package]
+name = "tensix-layout"
+description = "Host-side tilization for Tenstorrent Blackhole: strided row-major tensors to the L1 tile image the unpacker reads, and back."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+tensix-tile.workspace = true
+
+[dev-dependencies]
+proptest = "1.12.0"

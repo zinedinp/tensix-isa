@@ -1,0 +1,18 @@
+tensix-isa
+Copyright 2026 Carl Hurd
+Copyright 2026 Zinedin Polic
+
+This work is derived from metalium-rs (https://github.com/Knight-Ops/metalium-rs)
+by Carl Hurd, licensed under the Apache License, Version 2.0. Its files were
+modified: split into the tensix-* crates, renamed, moved to Rust edition 2024.
+
+Third-party sources the generated tables and models are derived from:
+
+- tt-isa-documentation (https://github.com/tenstorrent/tt-isa-documentation),
+  Tenstorrent, Apache License 2.0: the instruction table
+  (tensix-insn src/isa/generated.rs, from Diagrams/Src/Bits32.lua) and the FMA
+  model in tensix-numerics (a port of Miscellaneous/FMA/fma.c).
+- tt-metal (https://github.com/tenstorrent/tt-metal), Tenstorrent, Apache
+  License 2.0: the configuration-register table (tensix-regs
+  src/cfg/generated.rs, from tt_metal/hw/inc/blackhole/cfg_defines.h) and the
+  LLK constants in tensix-isa tests/llk_crosscheck.rs.

@@ -1,0 +1,15 @@
+[package]
+name = "tensix-units"
+description = "Checked builders for the Tenstorrent Blackhole Tensix units: SFPU, backend config, matrix unit, packer, unpacker, semaphores, scalar unit, hazards, tag search. no_std."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+tensix-insn.workspace = true
+tensix-regs.workspace = true
+tensix-numerics.workspace = true

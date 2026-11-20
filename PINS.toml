@@ -1,0 +1,20 @@
+# Pinned specification inputs of the generated tables. Bumping one invalidates the
+# measured layouts until their gates are re-run.
+
+[tt-isa-documentation]
+# The ISA specification. `cargo xtask fetch-spec` fetches it into
+# vendor/tt-isa-documentation; `TT_ISA_DOCS` names a local checkout instead.
+repo = "https://github.com/tenstorrent/tt-isa-documentation"
+rev  = "f848eb668c2aeae742a88a49a86157e24a0a20c6"
+# SHA-256 over the contents of the files the generator reads (Diagrams/Src/Bits32.lua,
+# every page under the two TensixCoprocessor trees, the two NoC/Atomics.md,
+# Miscellaneous/FMA/fma.c) as (path, length, bytes) in sorted path order.
+content_sha256 = "218cc3281f0216070c2586db23cc747b3ba3ae0b23de81114cbd15820abbfc30"
+
+[tt-metal]
+# cfg_defines.h, the 820 backend-configuration fields. `cargo xtask gen-cfg`
+# fetches it into vendor/ and writes crates/tensix-regs/src/cfg/generated.rs.
+repo   = "https://github.com/tenstorrent/tt-metal"
+rev    = "81989dcdb8f9b340c932ae7a71a346f4f08703eb"
+path   = "tt_metal/hw/inc/blackhole/cfg_defines.h"
+sha256 = "bc2636abc3ea04e6ca322923e6f2713b242857d021d8ef39b9180a14bcb1a5b8"

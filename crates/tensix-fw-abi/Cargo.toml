@@ -1,0 +1,16 @@
+[package]
+name = "tensix-fw-abi"
+description = "The host/firmware protocol of the tensix stack on Tenstorrent Blackhole: L1 region map, mailboxes, data-mover descriptors and records, dataflow, ttinsn blocks. no_std."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+tensix-insn.workspace = true
+tensix-regs.workspace = true
+tensix-noc.workspace = true
+tensix-tile.workspace = true

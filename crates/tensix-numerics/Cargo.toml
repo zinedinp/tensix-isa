@@ -1,0 +1,12 @@
+[package]
+name = "tensix-numerics"
+description = "Bit-exact models of Tenstorrent Blackhole arithmetic: FMA, SFPU and stochastic rounding. no_std, no dependencies."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
